@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+
 public class Player {
     String name;
-    Hand hand;
+    ArrayList<Card> cards = new ArrayList<>();
     boolean hasCrib;
     PlayBehavior playbehavior;
     int score;

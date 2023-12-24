@@ -3,6 +3,7 @@ public class Main {
         
         Game newGame = new Game();
         newGame.setupGame();
+        System.out.println(newGame.dealCards());
         
         /*      
         // Prints out both player's names for testing purposes
